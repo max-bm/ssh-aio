@@ -5,6 +5,8 @@
 # 	- Location of ssh-key?
 # 	- Option to install vim? nvim? --vim --nvim  <- THIS IS A COOL IDEA
 
-# ssh-copy-id
-# scp vi config
-# ssh
+ssh-aio () {
+	# ssh-copy-id
+	# scp vi config
+	ssh $1
+}
